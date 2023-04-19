@@ -1,0 +1,345 @@
+@media (max-width:480px) {
+    body{
+        font-size: 16px;
+    }
+    .sm-w-1{
+        width: 100%;
+    }
+    .sm-w-2{
+        width: 50%;
+    }
+    .none{
+        display: none;
+    }
+    .d-none{
+        display: block;
+    }
+    .show{
+        display: flex;
+    }
+    .logo select, .logo ul, .menu {
+        display: none;
+    }
+    .logo{
+        margin: 20px 0
+    }
+    .logo a img{
+        margin-left: 40%;
+    }
+    .logo .b-icon,.r-icon{
+        font-size: 26px;
+    margin: 15px;
+    }
+    .logo .r-icon i{
+    margin-left: 17px;
+    }
+    #myDropdown{
+        padding-top: 10px;
+    }
+    
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+
+
+      /* resopnsive menu  */
+      #mainnav #menu {
+        display: block;
+    }
+
+    #mainnav ul {
+        display: none;
+        background: #666;
+        padding: 1em;
+        text-align: left;
+    }
+    #mainnav ul li {
+        display: block;
+    }
+
+    #mainnav ul li a {
+        display: block;
+        padding: .75em 1.5em .5em 1.5em;
+    }
+
+
+
+    
+
+    /* BANNER */
+    .banner img{
+        height: 476px;
+    }
+    .banner-contain h1 {
+    width: 314px;
+    margin: 0 auto;
+    font-size: 34px;
+    line-height: 51px;
+    }
+    .banner-contain p {
+        margin: 0 auto;
+        padding: 20px 0 0 30px 0;
+        font-size: 16px;
+        width: 343px;
+        line-height: 24px;
+    }
+    .btn, .btn-black {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+
+
+    .section-1-image img{
+        width: 320px;
+    }
+
+    /* section-2  */
+    .contain-1-image img{
+       padding: 0 10px;
+    }
+    .image{
+        margin-bottom: 20px;
+    }
+    .contain-1 h3 {
+        margin: 14px 0 7px;
+    }
+    .contain-2 h2 {
+        font-size: 30px;
+    }
+    .contain-2 p {
+        width: 336px;
+    }
+    .contain-1-image{
+        padding:0 ;
+      }
+    .contain-1-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .shop{
+        left: 55%;
+        right: 25px;
+    }
+
+
+    .btn-black{
+        top: 5px;
+        left: 35%;
+    }
+
+    
+    .section-3 button {
+        margin-bottom: 0;
+    }
+
+    .section-3-image img {
+        width: 50%;
+    }
+
+
+
+    .section-7-contain{
+        text-align: center;
+        padding: 25px ;
+    }
+    .section-7-contain h3{
+        margin: 0 auto;
+        font-size: 26px;
+    }
+    .section-7-contain p{
+        margin: 0 auto;
+        padding: 20px 0 30px;
+        font-size: 16px;
+    }
+    .section-7-img img{
+        width: 100%;
+        height: 100%;   
+        padding: 30px;
+    }
+    .banner-2{
+        width: auto;
+        height: 263px;
+    }
+    .banner-2 h1{
+        width: 312px;
+        font-size: 26px;
+     }
+     .section-8-image{
+         width: 100%;
+         justify-content: center;
+     }
+     
+ 
+ .section-8-contain {
+     margin-bottom: -135px;
+     margin-left: -30%;
+     text-align: center;
+ }
+ .section-8-contain h1{
+     font-size: 34px;
+ }
+ .section-8-contain p{
+     padding: 10px 0 15px;
+ }
+
+    .section-4-contain h2 {
+        font-size: 26px;
+    }
+    .section-4-contain{
+        padding-top: 30px;
+    }
+
+
+    footer{
+        height: auto;
+    }
+    .footer-contain-1{
+        padding-top: 40px;
+    }
+    .footer-contain-1 img{
+        width: 125px;
+        height: 50px;
+    }
+    footer .w-5:nth-child(2) {
+        margin-left: 0;
+      }
+    
+
+
+
+    /* collaction */
+    .collaction-banner-contain{
+        top: 50%;
+    }
+    .collaction-banner-contain h1 {
+        font-size: 34px;
+    }
+    .collaction-banner-contain p {
+        font-size: 16px;
+        margin: 20px 0 30px;
+    }
+    .collaction-section-2-contain{
+        width: auto;
+    }
+
+    
+
+    /* review */
+    .review-section-2-contain {
+        margin-left: 0;
+    }
+    .text{
+        font-size: 11px;
+    }
+    .middle{
+        top: 85%;
+    }
+    .heart i{
+        font-size: 10px;
+    }
+    .heart{
+        top: 7%;
+    left: 92%;
+    }
+    
+
+    .section-9-contain{
+        padding: 30px 0;
+    }
+
+    .section-10-contain h2{
+        font-size: 26px; width: 310px;
+        margin: 0 auto;
+    }
+    .section-10-contain .email{
+        margin-bottom: 20px;
+       
+    }
+    .section-10-contain p{
+        font-size: 16px;
+    width: 350px;
+    margin: 0 auto;
+    }
+    
+
+
+    /* collaction1  */
+    .space {
+        margin-top: 30px;
+    }
+    .row .w-3 .section-3-image img{
+        margin-left: 25%;
+    }
+
+
+
+    /* newslatter  */
+    
+    .newsletter-contain{
+        width: 343px;
+        height: 450px;
+    }
+    .newsletter-contain{
+        top: 40%;
+    }
+    
+
+
+    .new-section-3-img2{
+        margin: 0;
+        padding: 10%;
+    }
+
+    /* res header  */
+    .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
+  /* overlay  */
+  .loader{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+@media (min-width:481px){
+    .hide{
+        display: none;
+    }
+}
